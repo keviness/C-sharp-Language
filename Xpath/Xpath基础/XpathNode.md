@@ -6,9 +6,8 @@
 在 XPath 中，有七种类型的节点：元素、属性、文本、命名空间、处理指令、注释以及文档（根）节点。XML 文档是被作为节点树来对待的。树的根被称为文档节点或者根节点。
 
 请看下面这个 XML 文档：
-
+~~~xml
 <?xml version="1.0" encoding="UTF-8"?>  
-  
 <bookstore>  
   <book>  
     <title lang="en">Harry Potter</title>  
@@ -17,7 +16,7 @@
     <price>29.99</price>  
   </book>  
 </bookstore>
-
+~~~
 上面的XML文档中的节点例子：
 
 \<bookstore> \(文档节点\)  
